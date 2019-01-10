@@ -15,7 +15,7 @@ namespace winDapper
 {
     public partial class Insert : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=BERKAY\SQLEXPRESS;Initial Catalog=Northwind;Persist Security Info=True;User ID=sa;Password=1234");
+        SqlConnection con = new SqlConnection(@"Data Source=BERKAY\SQLEXPRESS;Initial Catalog=Northwind;Persist Security Info=True;User ID=sa;Password=");
         public Insert()
         {
             InitializeComponent();
